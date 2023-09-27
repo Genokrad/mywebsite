@@ -24,16 +24,24 @@ import typescript from "./tech/typescript.png";
 import threejs from "./tech/threejs.svg";
 import sass from "./tech/sass.svg";
 
+// Project SVG
 import meta from "./company/meta.png";
 import wallet from "./company/wallet.svg";
 import theAgent from "./company/agent.svg";
 import softmag from "./company/softmag.svg";
+import babushkaFlower from "./company/babushkaFlower.svg";
+import plastArt from "./company/plastartLogo.svg";
 
 import theAgentScreen from "./theAgent.png";
 import walletScreen from "./wallet.png";
 import profilePart from "./profilePart.png";
+import BabushaWeb from "./babushkaWeatherWisdom.png";
+import plastArtSite from "./plastArtProj.png";
+import superHeroWeb from "./superHeroWeb.png";
 
 import natali from "./natali.png";
+import maria from "./maria.png";
+import sergiy from "./sergiy.png";
 
 export {
   logoSvgYv,
@@ -67,4 +75,11 @@ export {
   walletScreen,
   profilePart,
   natali,
+  babushkaFlower,
+  plastArt,
+  BabushaWeb,
+  plastArtSite,
+  superHeroWeb,
+  maria,
+  sergiy,
 };

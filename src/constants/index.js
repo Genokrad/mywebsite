@@ -23,6 +23,13 @@ import {
   profilePart,
   threejs,
   natali,
+  babushkaFlower,
+  plastArt,
+  BabushaWeb,
+  plastArtSite,
+  superHeroWeb,
+  maria,
+  sergiy,
 } from "../assets";
 
 export const navLinks = [
@@ -165,6 +172,41 @@ const experiences = [
       "Responsive design.",
     ],
   },
+  {
+    title: "Babushka weather wisdom",
+    company_name: "HTML, CSS, JS, AJAX, React, Redux TK, VITE",
+    icon: babushkaFlower,
+    iconBg: "#E6DEDD",
+    date: "August 2023 - August 2023",
+    points: [
+      "Weather app.",
+      "An application for viewing the weather for today, tomorrow and the whole week. Implemented change of measurement, weather adjusted using external API.",
+    ],
+  },
+  {
+    title: "PlastArt",
+    company_name: "HTML, CSS, JS, Parcel",
+    icon: plastArt,
+    iconBg: "#383E56",
+    date: "September 2023 - September 2023",
+    points: [
+      "Full-fledged website for a plastic surgery clinic.",
+      "Functionality of active elements is realised with the help of js, SASS is used as CSS preprocessor.",
+    ],
+  },
+  {
+    title: "SuperHero | pet project",
+    company_name:
+      "HTML, CSS, JS, Webpack, Node.js, Express, React, Redux TK, REST API, AJAX. ",
+    icon: logoSvgYv,
+    iconBg: "#E6DEDD",
+    date: "September 2023 - September 2023",
+    points: [
+      "A database of superheroes and the frontend to it.",
+      "All CRUD operations are available, namely: get heroes, get by id, delete by id, update by id. React-router-dom is used to implement page routing, each hero is opened by its own id.",
+      "Pagination is realised both on backend and frontend side",
+    ],
+  },
 ];
 
 const testimonials = [
@@ -176,6 +218,24 @@ const testimonials = [
     company: "",
     image: natali,
     profile_link: "https://www.linkedin.com/in/natalia-povaliy/",
+  },
+  {
+    testimonial:
+      "I have had the great pleasure of collaborating with Yaroslav on several projects and I can confidently say he is a highly skilled developer. He is always willing to put in extra effort to complete the tasks and stands out with a high level of motivation and reliability. Furthermore, his technical knowledge is impressive, and he quickly grasps complex concepts, applying them effectively in his work. Working with Yaroslav has been a genuine pleasure. I highly recommend him as an excellent colleague and professional.",
+    name: "Mariia Konopikhina",
+    designation: "",
+    company: "",
+    image: maria,
+    profile_link: "https://www.linkedin.com/in/mariia-konopikhina-21ba36261/",
+  },
+  {
+    testimonial:
+      "I worked with Yaroslav on three team projects, in the first project Yaroslav acted as a Scrum master/developer, and in the second he acted as a Team lead/developer, I can say with confidence that he completed the tasks 100%! He showed good knowledge of React and JavaScript. Always ready to help in a difficult situation and suggest a solution to many issues. It was comfortable for me to work in a team with Yaroslav.",
+    name: "Serhii Kutovyi",
+    designation: "",
+    company: "",
+    image: sergiy,
+    profile_link: "https://www.linkedin.com/in/serhii-kutovyi/",
   },
 ];
 
@@ -199,8 +259,8 @@ const projects = [
       },
     ],
     image: theAgentScreen,
-    source_code_link: "https://github.com/Genokrad/the-agent",
-    io_code_link: "https://www.theagent.com/en/",
+    source_code_link: "https://www.theagent.com/en/",
+    io_code_link: "https://github.com/Genokrad/the-agent",
   },
   {
     name: "Wallet",
@@ -239,8 +299,8 @@ const projects = [
       },
     ],
     image: walletScreen,
-    source_code_link: "https://github.com/Genokrad/walletProject",
-    io_code_link: "https://genokrad.github.io/walletProject",
+    source_code_link: "https://genokrad.github.io/walletProject",
+    io_code_link: "https://github.com/Genokrad/walletProject",
   },
   {
     name: "Profile",
@@ -273,8 +333,115 @@ const projects = [
       },
     ],
     image: profilePart,
-    source_code_link: "https://github.com/Genokrad/profile-page-mui",
-    io_code_link: "https://genokrad.github.io/profile-page-mui/profile",
+    source_code_link: "https://genokrad.github.io/profile-page-mui/profile",
+    io_code_link: "https://github.com/Genokrad/profile-page-mui",
+  },
+  {
+    name: "Babushka weather wisdom",
+    description:
+      "An application for viewing the weather for today, tomorrow and the whole week. Implemented change of measurement, weather adjusted using external API.",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "SASS",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "AJAX",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "React",
+        color: "green-text-gradient",
+      },
+      {
+        name: "Redux TK",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "VITE",
+        color: "blue-text-gradient",
+      },
+    ],
+    image: BabushaWeb,
+    source_code_link: "https://genokrad.github.io/babushka_weather/",
+    io_code_link: "https://github.com/Genokrad/babushka_weather",
+  },
+  {
+    name: "PlastArt",
+    description:
+      "Full-fledged website for a plastic surgery clinic. Functionality of active elements is realised with the help of js, SASS is used as CSS preprocessor.",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Parcel",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: plastArtSite,
+    source_code_link:
+      "https://genokrad.github.io/parcel-beauty-proj/main-page.html",
+    io_code_link: "https://github.com/Genokrad/parcel-beauty-proj",
+  },
+  {
+    name: "PlastArt",
+    description:
+      "A database of superheroes and the frontend to it. All CRUD operations are available, namely: get heroes, get by id, delete by id, update by id. React-router-dom is used to implement page routing, each hero is opened by its own id.Pagination is realised both on backend and frontend side",
+    tags: [
+      {
+        name: "HTML/CSS",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Webpack",
+        color: "green-text-gradient",
+      },
+      {
+        name: "JS",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Node.js",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "Express",
+        color: "green-text-gradient",
+      },
+      {
+        name: "React",
+        color: "pink-text-gradient",
+      },
+      {
+        name: "Redux TK",
+        color: "blue-text-gradient",
+      },
+      {
+        name: "REST API",
+        color: "green-text-gradient",
+      },
+      {
+        name: "AJAX",
+        color: "pink-text-gradient",
+      },
+    ],
+    image: superHeroWeb,
+    source_code_link: "https://github.com/Genokrad/SuperHeroFrontend",
+    io_code_link: "https://github.com/Genokrad/superHero",
   },
 ];
 
