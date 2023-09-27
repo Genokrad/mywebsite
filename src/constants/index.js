@@ -398,7 +398,7 @@ const projects = [
     io_code_link: "https://github.com/Genokrad/parcel-beauty-proj",
   },
   {
-    name: "PlastArt",
+    name: "Super Hero",
     description:
       "A database of superheroes and the frontend to it. All CRUD operations are available, namely: get heroes, get by id, delete by id, update by id. React-router-dom is used to implement page routing, each hero is opened by its own id.Pagination is realised both on backend and frontend side",
     tags: [
